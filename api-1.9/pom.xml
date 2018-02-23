@@ -8,7 +8,7 @@
     </parent>
 
     <artifactId>reporting-api-1.9</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>reporting Module api 1.9</name>
     <description>1.9 api project for reporting</description>
 

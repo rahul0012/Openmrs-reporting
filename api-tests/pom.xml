@@ -8,7 +8,7 @@
 	</parent>
 
 	<artifactId>reporting-api-tests</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>reporting API Tests</name>
 	<description>API tests for reporting</description>
 
