@@ -120,7 +120,7 @@
 			<groupId>org.codehaus.groovy</groupId>
 			<artifactId>groovy-all</artifactId>
 			<version>${groovyVersion}</version>
-			<type>jar</type>
+			<type>war</type>
 			<scope>provided</scope>
 		</dependency>
 
@@ -162,7 +162,7 @@
 			<groupId>org.openmrs.api</groupId>
 			<artifactId>openmrs-api</artifactId>
 			<version>${openMRSVersion}</version>
-			<type>jar</type>
+			<type>war</type>
 			<scope>provided</scope>
 		</dependency>
 
@@ -170,7 +170,7 @@
 			<groupId>org.openmrs.api</groupId>
 			<artifactId>openmrs-api</artifactId>
 			<version>${openMRSVersion}</version>
-			<type>jar</type>
+			<type>war</type>
 			<scope>test</scope>
 			<classifier>tests</classifier>
 		</dependency>
@@ -179,7 +179,7 @@
 			<groupId>org.openmrs.web</groupId>
 			<artifactId>openmrs-web</artifactId>
 			<version>${openMRSVersion}</version>
-			<type>jar</type>
+			<type>war</type>
 			<scope>provided</scope>
 		</dependency>
 
@@ -187,7 +187,7 @@
 			<groupId>org.openmrs.web</groupId>
 			<artifactId>openmrs-web</artifactId>
 			<version>${openMRSVersion}</version>
-			<type>jar</type>
+			<type>war</type>
 			<scope>test</scope>
 			<classifier>tests</classifier>
 		</dependency>
@@ -270,7 +270,7 @@
 			<groupId>org.openmrs.module</groupId>
 			<artifactId>calculation-api</artifactId>
 			<version>${calculationVersion}</version>
-			<type>jar</type>
+			<type>war</type>
 			<scope>provided</scope>
 		</dependency>
 
@@ -431,7 +431,7 @@
 
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-jar-plugin</artifactId>
+                    <artifactId>maven-war-plugin</artifactId>
                     <executions>
                         <execution>
                             <goals>
